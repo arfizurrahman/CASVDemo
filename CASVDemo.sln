@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CASVDemo", "CASVDemo\CASVDemo.csproj", "{501492E5-5F56-4BB3-9A48-A5B0DAD99280}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{0E51A7B7-2147-487D-B92C-248ED2CB7574}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{4F1C3582-5AAC-4848-814F-8FAD2119C768}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{501492E5-5F56-4BB3-9A48-A5B0DAD99280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{501492E5-5F56-4BB3-9A48-A5B0DAD99280}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{501492E5-5F56-4BB3-9A48-A5B0DAD99280}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{501492E5-5F56-4BB3-9A48-A5B0DAD99280}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E51A7B7-2147-487D-B92C-248ED2CB7574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E51A7B7-2147-487D-B92C-248ED2CB7574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E51A7B7-2147-487D-B92C-248ED2CB7574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E51A7B7-2147-487D-B92C-248ED2CB7574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F1C3582-5AAC-4848-814F-8FAD2119C768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F1C3582-5AAC-4848-814F-8FAD2119C768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F1C3582-5AAC-4848-814F-8FAD2119C768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F1C3582-5AAC-4848-814F-8FAD2119C768}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
